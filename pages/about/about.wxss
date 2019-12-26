@@ -1,0 +1,140 @@
+/*
+ * 
+ * WordPres版微信小程序
+ * author: jianbo
+ * organization: 守望轩  www.watch-life.net
+ * github:    https://github.com/iamxjb/winxin-app-watch-life.net
+ * 技术支持微信号：iamxjb
+ * Copyright (c) 2017 https://www.watch-life.net All rights reserved.
+ * 
+ */
+@import "../../wxParse/wxParse.wxss";
+
+.wrapper {
+  padding: 5rpx;
+}
+
+.excerpt {
+  color: #626262;
+  font-size: 32rpx;
+  line-height: 64rpx;
+  text-align: left;
+}
+
+.h2 {
+  clear: both;
+  border-width: 1px 0;
+  color: #666;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 64rpx;
+  font-weight: bold;
+}
+
+.clearfix {
+  margin: 5px 15px;
+  display: inline-block;
+}
+
+.wxParse-a {
+  color: #21759b;
+}
+
+.wxParse-p {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.wxParse-p image {
+  margin: 0 auto;
+  width: 100% !important;
+  box-shadow: 2rpx 4rpx 16rpx #666;
+}
+
+.praisePost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.praiseTitle {
+  text-align: center;
+  font-weight: normal;
+  line-height: 40rpx;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #959595 !important;
+  vertical-align: middle;
+  height: 70rpx;
+  border-radius: 30rpx;
+}
+
+.praiseText {
+  text-align: center;
+  font-weight: normal;
+  font-size: 26rpx;
+  line-height: 50rpx;
+  color: #21759b !important;
+  margin-bottom: 20rpx;
+}
+
+.img-like {
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20rpx;
+  margin-top: 8rpx;
+}
+
+.gravatarLikeImg {
+  margin-top: 4px;
+  height: 48rpx;
+  width: 48rpx;
+  margin-right: 20rpx;
+}
+
+.praise-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  background-color: #c1e1de;
+  background-repeat: repeat-x;
+  width: 400rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.praise-button::after {
+  border: none;
+}
+
+.gotowebpage-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  background-color: #fcabb4;
+  background-repeat: repeat-x;
+  width: 400rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.juzhong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gotowebpage-button::after {
+  border: none;
+}
